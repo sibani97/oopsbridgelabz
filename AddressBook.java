@@ -1,0 +1,13 @@
+package com.bridgelabz.oops;
+
+import java.util.List;
+
+public interface AddressBook {
+	public List<AddressPerson> add();
+	public void edit();
+	public void remove() throws Exception;
+	public void sortByName();
+	public void sortByZip();
+    public void printAll();
+
+}
